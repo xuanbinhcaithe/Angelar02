@@ -6,9 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./pet.component.css']
 })
 export class PetComponent implements OnInit {
-
   petName = 'puppie';
-  petImage = 'https://www.google.com/search?q=PET&sxsrf=ACYBGNRByF-8gnqat2PtbvwNG-FakXE7hw:1571715263303&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiG79PP967lAhWNFogKHYK1AhoQ_AUIEigB&biw=1920&bih=903#imgrc=yQSdL6_B1n8slM:';
+  petImage = 'http://yourdost-blog-images.s3-ap-southeast-1.amazonaws.com/wp-content/uploads/2016/01/03165939/Dogs.jpg';
+
   constructor() { }
   updateName(name) {
     this.petName = name;
